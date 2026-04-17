@@ -14,6 +14,32 @@ pnpm dev
 bun dev
 ```
 
+#Features
+  Real-Time Transcription
+  Live microphone capture using MediaRecorder
+  Audio chunking every configurable interval
+  Groq Whisper Large V3 transcription
+  Auto-appended transcript with timestamps
+
+#Smart Live Suggestions
+Generates exactly 3 fresh suggestions every refresh cycle
+Suggestions adapt to meeting context
+
+Includes:
+Questions to ask
+Talking points
+Answers
+Clarifications
+Risk flags
+Follow-ups
+Fact checks
+
+#Detailed Chat Panel
+Click any suggestion to expand into a practical answer
+Continuous chat for the full session
+Users can ask custom questions manually
+
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
